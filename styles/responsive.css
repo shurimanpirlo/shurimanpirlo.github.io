@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+
+  body {
+    background: #14110f;;
+  }
+
+  #menu {
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container .box #menu {
+    display: block;
+    position: absolute;
+    width: 300px;
+  }
+
+  #menu li {
+    transform: translateX(-31px);
+    
+  }
+
+  .container {
+    background: #14110f;
+    min-height: 100vh;
+    position: relative;
+    top: -140px;
+  }
+
+  #about-tab h3 {
+    padding-top: 5%;
+  }
+
+  #contact-tab h3 {
+    padding-top: 5%;
+  }
+
+  /* GALLERY */
+
+  .carousel-track {
+    display: flex;
+    animation: carousel 40s linear 3s infinite alternate;
+  }
+
+}

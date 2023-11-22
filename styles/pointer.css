@@ -1,0 +1,37 @@
+#pointer-dot {
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border: 2.5px solid #fffeef;
+  position: fixed;
+  border-radius: 4px;
+  z-index: 101;
+  pointer-events: none;
+  transition: border-color 0.5s ease;
+}
+
+#pointer-ring {
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  padding: 15px;
+  border: 2px solid #d56f3e;
+  position: fixed;
+  border-radius: 100px;
+  z-index: 102;
+  pointer-events: none;
+}
+
+html {
+  cursor: none !important;
+}
+
+a {
+  cursor: none !important;
+}
+
+#pointer-dot, #pointer-ring {
+  transition: transform 0.2s ease, border-color 0.2s ease, padding 0.2s ease;
+}

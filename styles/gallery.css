@@ -1,0 +1,63 @@
+:root {
+  --margin: 85px; 
+  --elements: 13; /* Edit images number */
+}
+
+#gallery-tab h1 {
+  transform: translateY(20px);
+}
+
+@keyframes carousel {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(calc((300px + var(--margin)) * (1 - var(--elements))))
+  }
+}
+
+.carousel-item-wrapper .carousel-item img:hover {
+  filter: brightness(60%);
+}
+
+.carousel-item-wrapper:hover .carousel-item::after {
+  content: attr(data-title); 
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  color: #fffeef;
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  opacity: 1;
+}
+
+.carousel-container {
+  margin-top: 100px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  animation: carousel 20s linear 3s infinite alternate;
+}
+
+.carousel-item-wrapper {
+  width: 100%;
+  margin-right: var(--margin);
+  position: relative;
+}
+
+.carousel-item {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: filter 0.3s ease;
+}
