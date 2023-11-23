@@ -44,4 +44,14 @@
     animation: carousel 40s linear 3s infinite alternate;
   }
 
+  /* POINTER */
+
+  #pointer-dot, #pointer-ring {
+    display: none;
+  }
+
+  html, a {
+    cursor: auto !important;
+  }
+
 }

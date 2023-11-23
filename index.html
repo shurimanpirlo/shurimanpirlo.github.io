@@ -1,119 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon.ico"
+      type="image/x-icon"
+      alt=""
+    />
     <title>Federico Calò</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/pointer.css">
-    <link rel="stylesheet" href="./styles/gallery.css">
-    <link rel="stylesheet" href="./styles/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/pointer.css" />
+    <link rel="stylesheet" href="./styles/gallery.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="box">
-            <div class="title">
-                <span class="block"></span>
-                <h1>Federico Calò<span></span></h1>
-            </div>
-            <div class="role">
-                <div class="block"></div>
-                <p>3D Artist</p>
-            </div>
-            <div class="menu">
-                <ul id="menu">
-                    <li class="about"><a href="#about-tab">about me<span>.</span></a></li>
-                    <li class="gallery"><a href="#gallery-tab">gallery<span>.</span></a></li>
-                    <li class="contact"><a href="#contact-tab">contact<span>.</span></a></li>
-                </ul>
-            </div>
+      <div class="box">
+        <div class="title">
+          <span class="block"></span>
+          <h1>Federico Calò<span></span></h1>
         </div>
+        <div class="role">
+          <div class="block"></div>
+          <p>3D Artist</p>
+        </div>
+        <div class="menu">
+          <ul id="menu">
+            <li class="about">
+              <a href="#about-tab">about me<span>.</span></a>
+            </li>
+            <li class="gallery">
+              <a href="#gallery-tab">gallery<span>.</span></a>
+            </li>
+            <li class="contact">
+              <a href="#contact-tab">contact<span>.</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
 
     <main class="main">
+      <section class="section" id="about-tab">
+        <h1>About</h1>
+        <h3>
+          I am a proficient 3D artist, specializing in freelance work. With over
+          six years of dedicated experience, I have honed my expertise in the
+          use of Blender. Additionally, I possess advanced skills in Photoshop
+          and Illustrator.<br /><br />
 
-        <section class="section" id="about-tab">
-          <h1>About</h1>
-          <h3>
-            I am a proficient 3D artist, specializing in freelance work. With over six years of dedicated experience, I have honed my expertise in the use of Blender. Additionally, I possess advanced skills in Photoshop and Illustrator.<br><br>
+          My professional strengths lie in hard surface modeling and product
+          rendering, primarily geared towards creating captivating visuals for
+          advertising and marketing campaigns. Furthermore, my background
+          extends to photography, logo design, and brand identity
+          development.<br /><br />
 
-            My professional strengths lie in hard surface modeling and product rendering, primarily geared towards creating captivating visuals for advertising and marketing campaigns. Furthermore, my background extends to photography, logo design, and brand identity development.<br><br>
-            
-            My deep-seated passion for art and creativity is a driving force in my work, and I maintain a steadfast commitment to artistic expression across diverse mediums.
-           </h3>
-        </section>
+          My deep-seated passion for art and creativity is a driving force in my
+          work, and I maintain a steadfast commitment to artistic expression
+          across diverse mediums.
+        </h3>
+      </section>
 
-        <section class="section" id="gallery-tab">
-            <h1>Gallery</h1>
-            <div class="carousel-container">
-              <div class="carousel-track" id="carouselTrack">
+      <section class="section" id="gallery-tab">
+        <h1>Gallery</h1>
+        <div class="carousel-container">
+          <div class="carousel-track" id="carouselTrack">
+            <!-- Copy and paste one carousel-item-wrapper to create another "image" into the carousel -->
 
-                    <!-- Copy and paste one carousel-item-wrapper to create another "image" into the carousel -->
-                    
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="La cüsina l'è deérta"><img src="./assets/campari.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Attento. Attento a cosa?"><img src="./assets/jager.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Qualcuno sa perchè"><img src="./assets/odp.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Coltello da burro"><img src="./assets/artimest.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Crisantemi"><img src="./assets/judas.png" alt=""></div>
-                    </div>
-                
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Confuziggs &#x1F4A3;"><img src="./assets/pirly.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Iñárritu!"><img src="./assets/corks.png" alt=""></div>
-                    </div>
-                
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Back it up"><img src="./assets/grancaff.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="PeraGames"><img src="./assets/kogtea.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Nerfàse"><img src="./assets/nerfase.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Leessang, you might"><img src="./assets/casio.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Aurora>"><img src="./assets/mfdoom.png" alt=""></div>
-                    </div>
-
-                    <div class="carousel-item-wrapper">
-                        <div class="carousel-item" data-title="Presneks &#x1FAD6;"><img src="./assets/presneks.png" alt=""></div>
-                    </div>
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="La cüsina l'è deérta">
+                <img src="./assets/campari.png" alt="" />
               </div>
             </div>
-          </section>
-        <section class="section" id="contact-tab">
-          <h1>Contact</h1>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fcalo2010@gmail.com" target="_blank"><h3><i class="fa-solid fa-square-envelope fa-2xl"></i> fcalo2010@gmail.com</h3></a>
-        </section>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Attento. Attento a cosa?">
+                <img src="./assets/jager.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Qualcuno sa perchè">
+                <img src="./assets/odp.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Coltello da burro">
+                <img src="./assets/artimest.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Crisantemi">
+                <img src="./assets/judas.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Confuziggs &#x1F4A3;">
+                <img src="./assets/pirly.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Iñárritu!">
+                <img src="./assets/corks.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Back it up">
+                <img src="./assets/grancaff.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="PeraGames">
+                <img src="./assets/kogtea.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Nerfàse">
+                <img src="./assets/nerfase.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Leessang, you might">
+                <img src="./assets/casio.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Aurora>">
+                <img src="./assets/mfdoom.png" alt="" />
+              </div>
+            </div>
+
+            <div class="carousel-item-wrapper">
+              <div class="carousel-item" data-title="Presneks &#x1FAD6;">
+                <img src="./assets/presneks.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact-tab">
+        <h1>Contact</h1>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=fcalo2010@gmail.com"
+          target="_blank"
+          ><h3>
+            <i class="fa-solid fa-square-envelope fa-2xl"></i>
+            fcalo2010@gmail.com
+          </h3></a
+        >
+      </section>
     </main>
 
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
     <script src="./scripts/script.js"></script>
     <script src="./scripts/pointer.js"></script>
-</body>
+  </body>
 </html>

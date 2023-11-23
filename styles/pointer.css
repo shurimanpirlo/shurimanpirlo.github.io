@@ -32,6 +32,7 @@ a {
   cursor: none !important;
 }
 
-#pointer-dot, #pointer-ring {
+#pointer-dot,
+#pointer-ring {
   transition: transform 0.2s ease, border-color 0.2s ease, padding 0.2s ease;
 }
